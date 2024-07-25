@@ -1,0 +1,19 @@
+{
+    "name": "miguelalcaino/crank-web-server",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Miguelalcaino\\CrankWebServer\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Miguel Alcaino",
+            "email": "miguel.alcaino@ogb.cl"
+        }
+    ],
+    "require": {
+        "react/http": "^1.10.0",
+        "vlucas/phpdotenv": "^5.6"
+    }
+}
