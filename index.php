@@ -38,7 +38,7 @@ $http = new React\Http\HttpServer(function (Psr\Http\Message\ServerRequestInterf
     );
 });
 
-$socket = new React\Socket\SocketServer('127.0.0.1:80');
+$socket = new React\Socket\SocketServer('0.0.0.0:80');
 $http->listen($socket);
 
 echo "Server running at http://127.0.0.1:80" . PHP_EOL;
