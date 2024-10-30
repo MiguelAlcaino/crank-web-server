@@ -11,11 +11,11 @@ $http = new React\Http\HttpServer(function (Psr\Http\Message\ServerRequestInterf
             <head>
               <meta charset='UTF-8' />
               <link rel='icon' href='/favicon.ico' />
-              <link rel="stylesheet" href="https://stingray-app-aijml.ondigitalocean.app/style.css">
+              <link rel="stylesheet" href="https://crank-web-develop.crank-fit.com/style.css">
               <script type="importmap">
                   {
                     "imports": {
-                      "crank-web": "https://stingray-app-aijml.ondigitalocean.app/crank-web.js"
+                      "crank-web": "https://crank-web-develop.crank-fit.com/crank-web.js"
                     }
                   }
               </script>
